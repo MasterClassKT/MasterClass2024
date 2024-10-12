@@ -1,31 +1,27 @@
-# Cloud Native 역량 강화 교육
+# [고수의 클래스] Azure온보딩 실습: KT사내 서비스 Azure Migration
 
 
 <br/>
 
-본 교육 과정은 Cloud Native Evangelist 양성 과정으로 기본 개념과 실습 그리고 OJT 진행을 하며 직접 설치부터 설정 및 활용까지 수행한다.     
+본 교육 과정은 컨테이너 기반 KT사내서비스를 Azure Cloud 환경에 온보딩하고 서비스 동작의 이상상태 유무 체크 그리고, Azure에서 제공하는 PaaS상품을 기존 오픈소스 기반의 서비스를 대체하여 활용까지 수행한다.     
 
-문의 :  이석환 ( seokhwan.lee@kt.com / shclub@gmail.com )
+문의 :  정치훈 ( ch.jung@kt.com / giglepeople@gmail.com )
 
 <br/>
 
 
-1. Chapter 1 : 1주차    ( [가이드 문서보기](./chapter1.md) ) 
+1. Session 1 :     ( [가이드 문서보기](./session1.md) ) 
 
-     - SpringBoot 개념 설명 
-     - IDE 개발 환경 구성  ( Hello World)
-     - SpringBoot 전체 hands-on [ Hands-On 문서보기 ](./springboot_hands_on.md)   
-
-          - 뷰 템플릿 과 MVC 패턴
-          - JDBC vs JPA vs Mybatis vs Spring Data JDBC 비교
-          - Spring Data JPA Hands-on 
-          - Rest API 와 JSON
-          - HTTP 와 Rest Controller
-          - 서비스와 트랜잭션, 그리고 롤백
-          - Spring MyBatis Hands-on
-          - Spring Data JDBC Hands-on
-          - 테스트 작성하기
-          - 댓글 서비스 만들기
+     - Github & Docker 환경 구성
+          - Github 설치
+          - Github repository fork
+          - Docker image push to ACR (로컬PC)
+     - Azure 리소스 생성
+          - ACR 생성
+          - Eventhub 생성
+          - Redis 생성
+          - PostgreSQL DB 생성
+          - AKS 생성
 
      - SpringBoot Data JPA hands-on [ Hands-On 문서보기 ](./springboot_hands_on_jpa.md)  
 
